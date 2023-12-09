@@ -53,6 +53,7 @@ const Home = () => {
             infiniteLoop
             autoPlay
             interval={3000}
+            stopOnHover={false}
           >
             {carouselItems.map((item, index) => (
               <div key={index} className="relative h-screen">
